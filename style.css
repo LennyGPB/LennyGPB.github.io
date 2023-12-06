@@ -223,8 +223,8 @@ h1, h2, h3, h4, p
     margin-left: auto;
     position: relative;
 }
+
 h1 {
-    font-size: 90px;
     font-family: 'Abril Fatface', sans-serif;
     margin: 0 60px;
     padding-top: 210px;
@@ -737,16 +737,11 @@ h1 {
 .section-range {
     width: 100%;
     height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     padding-bottom: 200px;
     border-bottom: 1px dashed #333;
     background: #485563;
     background-image: linear-gradient(to right, var(--black), var(--violet));
     color: #f1f1f1;
-    position: relative;
     z-index: -1;
 }
 .range-cont {
@@ -758,54 +753,8 @@ h1 {
     margin: 80px 0 90px 0;
     padding-left: 300px;
 }
-.grille-skill {
-    display: grid;
-    grid-template: repeat(3,80px) / repeat(2, 500px);
-    grid-gap: 50px;
-    padding-left: 300px;
-}
-.barre-skill {
-    height: 15px;
-    background: rgb(167,146,243);
-    border-radius: 5px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
-.barre-grises {
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    bottom: 0;
-    width: 500px;
-    height: 15px;
-    background: rgb(216,216,216);
-    border-radius: 5px;
-}
-.b1 {
-    width: 90%;
-}
-.b2 {
-    width: 75%;
-    background: rgb(243,237,146);
-}
-.b3 {
-    width: 70%;
-    background: rgb(243,237,146);
-}
-.b4 {
-    width: 80%;
-}
-.b5 {
-    width: 70%;
-}
-.b6 {
-    width: 80%;
-    background: rgb(243,237,146);
-}
-.label-skill {
-    font-size: 24px;
-}
+
+
 /* Medias Range */
 
 @media screen and (max-width: 1400px) {
@@ -872,7 +821,6 @@ h1 {
     width: calc(100% - 300px);
     height: auto;
     margin-left: auto;
-    padding-bottom: 100px;
 }
 
 .titre-travail-exp {
@@ -881,42 +829,19 @@ h1 {
     font-size: 40px;
     color: #333;
 }
+
 .cont-exp-travail {
     position: relative;
     display: flex;
     justify-content: center;
 }
-.barre-verticale {
-    height: 700px;
-    width: 5px;
-    background: #000;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    left: -30px;
-}
-.boule-ico {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 1px solid #333;
-    background: #f1f1f1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.boule-ico img {
-    width: 25px;
-}
 
 .flex-cont-bloc-exp {
     width: 800px;
     flex-shrink: 1;
-    height: 1000px;
     position: relative;
 }
+
 .bloc {
     width: 100%;
     height: 200px;
@@ -953,7 +878,7 @@ h1 {
 .titre-section-bloc {
     font-family: 'Abril Fatface', sans-serif;
     font-size: 25px;
-    padding-bottom: 10px;
+
 }
 
 /* Media section travail exp */
@@ -961,23 +886,6 @@ h1 {
     .travail-exp {
         width: 100%;
     }
-}
-@media screen and (max-width: 950px) {
-
-    .barre-verticale {
-        height: 1200px;
-    }
-    .bloc {
-        height: 250px;
-        margin-bottom: 37.5px;
-    }
-    .barre-verticale{
-        margin-left: 60px;
-    }
-    .flex-cont-bloc-exp {
-        margin-right: 30px;
-    }
-
 }
 
 @media screen and (max-width: 520px) {
@@ -1002,7 +910,7 @@ h1 {
 
 }
 
-/* Section Parallax */
+/* Section Parallax
 .section-parallax {
     width: 100%;
     height: 250px;
@@ -1049,9 +957,9 @@ h1 {
         margin: 20px 0px;
     }
 
-}
+} */
 
-/* Section Contact */
+/* Section Contact
 
 .section-contact {
     width: 100%; 
@@ -1163,7 +1071,7 @@ textarea:focus {
     top: 0px;
     transform: translateY(-100%);
     color: var(--violet);
-}
+} */
 
 /* Footer */
 
